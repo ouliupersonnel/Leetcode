@@ -1,4 +1,4 @@
-// 312ms, 51.57%, 5m, 1 time
+// 312ms, 51.57%, 5m, 1t
 public class Solution {
     public int[] SortArrayByParity(int[] A) {
         if (A == null || A.Length == 0)

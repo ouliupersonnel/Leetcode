@@ -1,4 +1,4 @@
-// 352ms, 100%, 38m, 3 times
+// 352ms, 100%, 38m, 3t
 public class Solution {
     public int[] SortedSquares(int[] A) {
         if (A == null || A.Length == 0)

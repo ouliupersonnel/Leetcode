@@ -1,4 +1,4 @@
-// 300ms, 82.39%, 6m, 6 times
+// 300ms, 82.39%, 6m, 6t
 public class Solution {
     public int[][] FlipAndInvertImage(int[][] A) {
         for (int i = 0; i < A.Length; ++i){
