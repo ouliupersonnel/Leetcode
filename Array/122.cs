@@ -1,21 +1,20 @@
-// 868ms, 1.5%, 10m, 3t
+// 112ms, 54.99%, 20m, 2t
 public class Solution {
     public int MaxProfit(int[] prices) {
         if (prices == null || prices.Length == 0)
             return 0;
         
-        int[] profit = new int[prices.Length];
-        for (int i = prices.Length - 2; i >= 0; --i){
-            int bestWhenBuyI = 0;
-            for (int j = i+1; j < prices.Length; ++j){
-                if (prices[j] > prices[i]){
-                    bestWhenBuyI = profit[j] + prices[j] - prices[i];  
-                    break;
-                }
-            }
-            profit[i] = Math.Max(profit[i+1], bestWhenBuyI);
+        int s = 0, p = 0;
+        for (int i = 1; i < prices.Length; ++i){
+            if (prices[i] < prices[i-1]){
+                p += prices[i-1] - prices[s];
+                s = i;                
+            }            
         }
         
-        return profit[0];
-    }    
+        if (prices[prices.Length - 1] > prices[s])
+            p += prices[prices.Length - 1] - prices[s];
+        
+        return p;
+    } 
 }
