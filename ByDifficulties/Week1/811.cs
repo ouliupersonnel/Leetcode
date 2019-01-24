@@ -1,4 +1,4 @@
-// 98.21% could be improved by using indexOf/substring in . breakup
+// 376, 34.57%, 5m, 1t
 public class Solution {
     public IList<string> SubdomainVisits(string[] cpdomains) {
         Dictionary<string, int> cnts = new Dictionary<string, int>();

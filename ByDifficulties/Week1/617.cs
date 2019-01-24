@@ -1,4 +1,4 @@
-// 94.19% (is it possible to remove the tail recursion?)
+// 140ms, 55.79%, 5m, 1t
 /**
  * Definition for a binary tree node.
  * public class TreeNode {

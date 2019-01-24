@@ -1,4 +1,4 @@
-// 84.91% perf unreliable
+// 308ms, 34.78%, 5m, 1t
 public class Solution
 {
     public int[] NumberOfLines(int[] widths, string S)

@@ -1,4 +1,4 @@
-// probably can be improved
+// 288ms, 55.13%, 5m, 1t
 public class Solution {
     public int[] ShortestToChar(string S, char C) {
         List<int> locations = new List<int>();

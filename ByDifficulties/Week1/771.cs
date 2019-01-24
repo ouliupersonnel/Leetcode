@@ -1,4 +1,4 @@
-// 99.31%
+// 88ms, 77.93%, 5m, 1t
 public class Solution {
     public int NumJewelsInStones(string J, string S) {
         bool[] jewels = new bool[256];

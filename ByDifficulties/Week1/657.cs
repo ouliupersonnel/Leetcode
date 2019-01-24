@@ -1,4 +1,4 @@
-// 97.78%
+// 100ms, 42.14%, 5m, 1t
 public class Solution {    
     public bool JudgeCircle(string moves) {
         int uStepsCnt = 0, lStepsCnt = 0;

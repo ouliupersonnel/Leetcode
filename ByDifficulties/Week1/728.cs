@@ -1,4 +1,4 @@
-// 95.80% may be able to improve it
+// 356ms, 12.36%, 5m, 1t
 public class Solution {
     public IList<int> SelfDividingNumbers(int left, int right) {
         List<int> result = new List<int>();
